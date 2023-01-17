@@ -5,6 +5,9 @@ body{
     background-size: cover;
 }
 
+button{
+    border-radius: 10px;
+}
 
 
 header{
@@ -153,6 +156,14 @@ span:hover{
     color: black;
     border-radius: 5px;    
 }
-.redes{
-
+:root{
+    --instagram: blue;
+}
+.logo-redes{
+    border: solid red 2px;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    
 }
